@@ -1,18 +1,8 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
-<<<<<<< HEAD
- * Original file: /home/jalaziz/Development/eclipse-workspaces/CENS/cens-whatsinvasive/src/edu/ucla/cens/whatsinvasive/data/ITagDatabaseCallback.aidl
-=======
- * Original file: D:\\Users\\Khashim\\EclipseWorkspaces\\CENS\\whatsinvasive\\src\\edu\\ucla\\cens\\whatsinvasive\\data\\ITagDatabaseCallback.aidl
->>>>>>> 0455e62ea835c764a19a74265c76040a1ffd5b7d
+ * Original file: F:\\CENS\\Projects\\NetNat\\Invasives\\Invasives\\Invasives4\\src\\edu\\ucla\\cens\\whatsinvasive\\data\\ITagDatabaseCallback.aidl
  */
 package edu.ucla.cens.whatsinvasive.data;
-import java.lang.String;
-import android.os.RemoteException;
-import android.os.IBinder;
-import android.os.IInterface;
-import android.os.Binder;
-import android.os.Parcel;
 public interface ITagDatabaseCallback extends android.os.IInterface
 {
 /** Local-side IPC implementation stub class. */
@@ -25,7 +15,7 @@ public Stub()
 this.attachInterface(this, DESCRIPTOR);
 }
 /**
- * Cast an IBinder object into an ITagDatabaseCallback interface,
+ * Cast an IBinder object into an edu.ucla.cens.whatsinvasive.data.ITagDatabaseCallback interface,
  * generating a proxy if needed.
  */
 public static edu.ucla.cens.whatsinvasive.data.ITagDatabaseCallback asInterface(android.os.IBinder obj)
@@ -43,7 +33,7 @@ public android.os.IBinder asBinder()
 {
 return this;
 }
-public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
+@Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
 {
 switch (code)
 {
@@ -95,7 +85,7 @@ _data.recycle();
 }
 }
 }
-static final int TRANSACTION_parkTitleUpdated = (IBinder.FIRST_CALL_TRANSACTION + 0);
+static final int TRANSACTION_parkTitleUpdated = (android.os.IBinder.FIRST_CALL_TRANSACTION + 0);
 }
 public void parkTitleUpdated(java.lang.String title) throws android.os.RemoteException;
 }

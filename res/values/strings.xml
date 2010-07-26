@@ -42,7 +42,7 @@
 <string name="feedback_tabs_top">Top collectors:\n</string>
 <string name="help_main_number1">(1)</string>
 <string name="help_main_number2">(2)</string>
-<string name="help_main_para1">The “Map a Weed!” or &quot;Map a Pest!&quot; buttons are the main functions.</string>
+<string name="help_main_para1">The \&quot;Map a Weed!\&quot; or \&quot;Map a Pest!\&quot; buttons are the main functions.</string>
 <string name="help_main_para10">OTHER FEATURES</string>
 <string name="help_main_para11">Automatic List of Parks</string>
 <string name="help_main_para12">When connected, your phone will automatically download a list of participating parks.  If GPS is enabled, your phone will also automatically select the closest park.\n\nIf you wish to manually select a park from the list, go to:</string>

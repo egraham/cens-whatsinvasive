@@ -1,14 +1,8 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /home/jalaziz/Development/eclipse-workspaces/CENS/cens-whatsinvasive/src/edu/ucla/cens/whatsinvasive/data/ITagDatabase.aidl
+ * Original file: F:\\CENS\\Projects\\NetNat\\Invasives\\Invasives\\Invasives4\\src\\edu\\ucla\\cens\\whatsinvasive\\data\\ITagDatabase.aidl
  */
 package edu.ucla.cens.whatsinvasive.data;
-import java.lang.String;
-import android.os.RemoteException;
-import android.os.IBinder;
-import android.os.IInterface;
-import android.os.Binder;
-import android.os.Parcel;
 public interface ITagDatabase extends android.os.IInterface
 {
 /** Local-side IPC implementation stub class. */
@@ -21,7 +15,7 @@ public Stub()
 this.attachInterface(this, DESCRIPTOR);
 }
 /**
- * Cast an IBinder object into an ITagDatabase interface,
+ * Cast an IBinder object into an edu.ucla.cens.whatsinvasive.data.ITagDatabase interface,
  * generating a proxy if needed.
  */
 public static edu.ucla.cens.whatsinvasive.data.ITagDatabase asInterface(android.os.IBinder obj)
@@ -39,7 +33,7 @@ public android.os.IBinder asBinder()
 {
 return this;
 }
-public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
+@Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
 {
 switch (code)
 {
@@ -115,8 +109,8 @@ _data.recycle();
 }
 }
 }
-static final int TRANSACTION_registerCallback = (IBinder.FIRST_CALL_TRANSACTION + 0);
-static final int TRANSACTION_unregisterCallback = (IBinder.FIRST_CALL_TRANSACTION + 1);
+static final int TRANSACTION_registerCallback = (android.os.IBinder.FIRST_CALL_TRANSACTION + 0);
+static final int TRANSACTION_unregisterCallback = (android.os.IBinder.FIRST_CALL_TRANSACTION + 1);
 }
 public void registerCallback(edu.ucla.cens.whatsinvasive.data.ITagDatabaseCallback cb) throws android.os.RemoteException;
 public void unregisterCallback(edu.ucla.cens.whatsinvasive.data.ITagDatabaseCallback cb) throws android.os.RemoteException;
